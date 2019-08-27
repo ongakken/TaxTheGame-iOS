@@ -1,0 +1,3 @@
+C:\TaxTheGame\Source\TaxTheGame\TaxTheGame.Build.cs
+C:\TaxTheGame\Source\TaxTheGame.Target.cs
+C:\TaxTheGame\Source\TaxTheGameEditor.Target.cs

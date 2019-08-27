@@ -1,0 +1,2 @@
+C:\TaxTheGame\Intermediate\Build\Win64\UE4Editor\Development\TaxTheGame\Definitions.TaxTheGame.h
+c:\taxthegame\source\taxthegame\TaxTheGame.h

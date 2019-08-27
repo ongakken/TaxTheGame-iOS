@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TaxTheGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0B32CAA1-8827-4814-9A77-74462825689F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TaxTheGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TaxTheGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B37BEA29-586D-4515-97D6-E2AAFF797B90}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TaxTheGame">
+      <UniqueIdentifier>{3531A648-85C8-4110-9766-2FC9E9C5C3AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TaxTheGame\TaxTheGame.Build.cs">
+      <Filter>Source\TaxTheGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TaxTheGame\TaxTheGame.cpp">
+      <Filter>Source\TaxTheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TaxTheGame\TaxTheGame.h">
+      <Filter>Source\TaxTheGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TaxTheGame\TaxTheGameGameModeBase.cpp">
+      <Filter>Source\TaxTheGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TaxTheGame\TaxTheGameGameModeBase.h">
+      <Filter>Source\TaxTheGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
