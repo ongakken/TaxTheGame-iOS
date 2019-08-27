@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TaxTheGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0B32CAA1-8827-4814-9A77-74462825689F}</UniqueIdentifier>
+      <UniqueIdentifier>{A52FD9E9-6BEF-4A83-92F6-343DFCA7B4FE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TaxTheGame.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\TaxTheGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B37BEA29-586D-4515-97D6-E2AAFF797B90}</UniqueIdentifier>
+      <UniqueIdentifier>{8B64327A-B0E2-4E02-8875-45CE0EF4848C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +25,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TaxTheGame">
-      <UniqueIdentifier>{3531A648-85C8-4110-9766-2FC9E9C5C3AF}</UniqueIdentifier>
+      <UniqueIdentifier>{9BDA479B-CFEC-498C-9FF7-2F7BCE6B564C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TaxTheGame\TaxTheGame.Build.cs">
       <Filter>Source\TaxTheGame</Filter>
@@ -40,6 +45,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\TaxTheGame\TaxTheGameGameModeBase.h">
       <Filter>Source\TaxTheGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\TaxTheGame\Private">
+      <UniqueIdentifier>{229A560F-32EC-4C4E-AAEF-60F964C1C5E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TaxTheGame\Private\mainCharacter.cpp">
+      <Filter>Source\TaxTheGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\TaxTheGame\Public">
+      <UniqueIdentifier>{19324ADE-9644-4ACB-BA7C-A9944290C02A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TaxTheGame\Public\mainCharacter.h">
+      <Filter>Source\TaxTheGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
