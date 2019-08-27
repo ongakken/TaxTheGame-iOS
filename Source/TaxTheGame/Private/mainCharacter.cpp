@@ -9,6 +9,10 @@ AmainCharacter::AmainCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+	camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+		camera->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned

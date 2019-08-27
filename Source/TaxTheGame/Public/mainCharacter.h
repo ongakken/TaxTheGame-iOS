@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
 #include "mainCharacter.generated.h"
 
 UCLASS()
@@ -14,6 +15,9 @@ class TAXTHEGAME_API AmainCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AmainCharacter();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+		UCameraComponent* camera;
 
 protected:
 	// Called when the game starts or when spawned
