@@ -33,6 +33,90 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bill_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_bill;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_billTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_billTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_powerConsumption_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_powerConsumption;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_taxPerTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_taxPerTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_taxTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_taxTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentClock_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currentClock;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_overclockCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_overclockCount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_clickIncrementBoostCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_clickIncrementBoostCount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_clickIncrementValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_clickIncrementValue;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentMoney_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currentMoney;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_totalPrinterCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_totalPrinterCount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t10Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t10Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t9Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t9Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t8Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t8Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t7Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t7Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t6Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t6Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t5Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t5Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t4Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t4Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t3Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t3Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t2Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t2Count;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_t1Count_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_t1Count;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_camera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_camera;
@@ -52,6 +136,156 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_bill_MetaData[] = {
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_bill = { "bill", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, bill), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_bill_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_bill_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_billTime_MetaData[] = {
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_billTime = { "billTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, billTime), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_billTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_billTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_powerConsumption_MetaData[] = {
+		{ "Category", "Power" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+		{ "ToolTip", "deduct this value every taxTime" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_powerConsumption = { "powerConsumption", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, powerConsumption), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_powerConsumption_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_powerConsumption_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxPerTime_MetaData[] = {
+		{ "Category", "Taxes" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxPerTime = { "taxPerTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, taxPerTime), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxPerTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxPerTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxTime_MetaData[] = {
+		{ "Category", "Taxes" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxTime = { "taxTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, taxTime), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData[] = {
+		{ "Category", "Clock" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock = { "currentClock", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, currentClock), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData[] = {
+		{ "Category", "Clock" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+		{ "ToolTip", "clickIncrementValue += clickIncrementBoostCount" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount = { "overclockCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, overclockCount), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount_MetaData[] = {
+		{ "Category", "Money" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount = { "clickIncrementBoostCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, clickIncrementBoostCount), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData[] = {
+		{ "Category", "Money" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue = { "clickIncrementValue", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, clickIncrementValue), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney_MetaData[] = {
+		{ "Category", "Money" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney = { "currentMoney", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, currentMoney), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_totalPrinterCount_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_totalPrinterCount = { "totalPrinterCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, totalPrinterCount), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_totalPrinterCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_totalPrinterCount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t10Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t10Count = { "t10Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t10Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t10Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t10Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t9Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t9Count = { "t9Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t9Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t9Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t9Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t8Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t8Count = { "t8Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t8Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t8Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t8Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t7Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t7Count = { "t7Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t7Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t7Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t7Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t6Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t6Count = { "t6Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t6Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t6Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t6Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t5Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t5Count = { "t5Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t5Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t5Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t5Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t4Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t4Count = { "t4Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t4Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t4Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t4Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t3Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t3Count = { "t3Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t3Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t3Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t3Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t2Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t2Count = { "t2Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t2Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t2Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t2Count_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_t1Count_MetaData[] = {
+		{ "Category", "Printers" },
+		{ "ModuleRelativePath", "Public/mainCharacter.h" },
+		{ "ToolTip", "printers, money, clock, taxes, power" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_t1Count = { "t1Count", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, t1Count), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t1Count_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_t1Count_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_camera_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
@@ -60,6 +294,27 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_camera = { "camera", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_camera_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AmainCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_bill,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_billTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_powerConsumption,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxPerTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_taxTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_totalPrinterCount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t10Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t9Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t8Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t7Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t6Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t5Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t4Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t3Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t2Count,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_t1Count,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AmainCharacter_Statics::NewProp_camera,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AmainCharacter_Statics::StaticCppClassTypeInfo = {
@@ -89,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AmainCharacter, 3563127249);
+	IMPLEMENT_CLASS(AmainCharacter, 3237400370);
 	template<> TAXTHEGAME_API UClass* StaticClass<AmainCharacter>()
 	{
 		return AmainCharacter::StaticClass();
