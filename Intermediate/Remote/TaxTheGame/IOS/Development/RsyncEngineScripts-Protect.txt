@@ -1,0 +1,7 @@
+protect Binaries/ThirdParty/Mono/Mac/bin/xbuild
+protect Build/BatchFiles/Mac/Build.sh
+protect Build/BatchFiles/Mac/FixDependencyFiles.sh
+protect Build/BatchFiles/Mac/RunMono.sh
+protect Build/BatchFiles/Mac/FixMonoFiles.sh
+protect Build/BatchFiles/Mac/GenerateProjectFiles.sh
+protect Build/BatchFiles/Mac/SetupMono.sh
