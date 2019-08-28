@@ -1151,6 +1151,7 @@ Windows.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:MaxShaderLanguageVe
 Windows.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bEnableAdvertisingIdentifier:0=True
 Windows.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:MobileProvision:0=taxthegameProfile.mobileprovision
 Windows.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:SigningCertificate:0=iPhone Developer Simon Slamka (6RH3UGX73D)
+Windows.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:EnableRemoteShaderCompile:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:SDKAPILevelOverride:0=
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:NDKAPILevelOverride:0=
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bEnableGooglePlaySupport:0=false
@@ -1900,7 +1901,7 @@ Windows.Game:/Script/Engine.GameSession:MaxSplitscreensPerConnection:0=4
 Windows.Game:/Script/Engine.GameSession:bRequiresPushToTalk:0=true
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyName:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyDistinguishedName:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out your copyright notice in the Description page of Project Settings.
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Copyright 2019 SMD Technologies, s.r.o. All rights reserved.
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
