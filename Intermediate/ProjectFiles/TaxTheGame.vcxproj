@@ -468,6 +468,11 @@
     <None Include="..\..\Source\TaxTheGameEditor.Target.cs"/>
     <None Include="..\..\.gitattributes"/>
     <None Include="..\..\.gitignore"/>
+    <None Include="..\..\iOS-cert-development.cer"/>
+    <None Include="..\..\iOS-CertificateSigningRequest.csr"/>
+    <None Include="..\..\iOS-DeveloperKeyPair.key"/>
+    <None Include="..\..\RemoteToolChainPrivate.key"/>
+    <None Include="..\..\taxthegameProfile.mobileprovision"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
