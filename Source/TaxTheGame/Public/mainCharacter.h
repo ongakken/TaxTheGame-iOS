@@ -21,51 +21,51 @@ public:
 
 	// printers, money, clock, taxes, power
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t1Count;
+		int32 t1Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t2Count;
+		int32 t2Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t3Count;
+		int32 t3Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t4Count;
+		int32 t4Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t5Count;
+		int32 t5Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t6Count;
+		int32 t6Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t7Count;
+		int32 t7Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t8Count;
+		int32 t8Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t9Count;
+		int32 t9Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int t10Count;
+		int32 t10Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int totalPrinterCount;
+		int32 totalPrinterCount;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int currentMoney;
+		int32 currentMoney;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Money")
+		int32 clickIncrementValue;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int clickIncrementValue;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int clickIncrementBoostCount; // clickIncrementValue += clickIncrementBoostCount
+		int32 clickIncrementBoostCount; // clickIncrementValue += clickIncrementBoostCount
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int overclockCount;
+		int32 overclockCount;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int currentClock;
+		int32 currentClock;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Taxes")
-		int taxTime;
+		int32 taxTime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Taxes")
-		int taxPerTime; // deduct this value every taxTime
+		int32 taxPerTime; // deduct this value every taxTime
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int powerConsumption;
+		int32 powerConsumption;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int billTime;
+		int32 billTime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int bill; // this value will be deducted every billTime
+		int32 bill; // this value will be deducted every billTime
 
 
 

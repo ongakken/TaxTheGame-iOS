@@ -1,0 +1,9 @@
+C:\TaxTheGame\Intermediate\Build\Win64\UE4\Development\TaxTheGame\Definitions.TaxTheGame.h
+C:\TaxTheGame\Source\TaxTheGame\Public\mainCharacter.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CameraComponent.generated.h
+C:\TaxTheGame\Intermediate\Build\Win64\UE4\Inc\TaxTheGame\mainCharacter.generated.h

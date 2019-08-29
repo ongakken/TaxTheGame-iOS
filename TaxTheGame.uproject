@@ -17,6 +17,10 @@
 		{
 			"Name": "LocationServicesIOSImpl",
 			"Enabled": true
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
 		}
 	]
 }
