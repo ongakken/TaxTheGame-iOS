@@ -55,11 +55,11 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentClock_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_currentClock;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_currentClock;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_overclockCount_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_overclockCount;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_overclockCount;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_clickIncrementBoostCount_MetaData[];
 #endif
@@ -177,7 +177,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		{ "ModuleRelativePath", "Public/mainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock = { "currentClock", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, currentClock), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock = { "currentClock", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, currentClock), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentClock_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData[] = {
 		{ "Category", "Clock" },
@@ -185,7 +185,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		{ "ToolTip", "clickIncrementValue += clickIncrementBoostCount" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount = { "overclockCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, overclockCount), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount = { "overclockCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, overclockCount), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_overclockCount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementBoostCount_MetaData[] = {
 		{ "Category", "Money" },
@@ -344,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AmainCharacter, 2188509283);
+	IMPLEMENT_CLASS(AmainCharacter, 3356636422);
 	template<> TAXTHEGAME_API UClass* StaticClass<AmainCharacter>()
 	{
 		return AmainCharacter::StaticClass();

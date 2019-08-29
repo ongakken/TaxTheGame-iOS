@@ -28,8 +28,8 @@ AmainCharacter::AmainCharacter()
 	currentMoney = 0;
 	clickIncrementValue = 1;
 	clickIncrementBoostCount = 1;
-	overclockCount = 0;
-	currentClock = 1000;
+	overclockCount = 1.f;
+	currentClock = 1000.f;
 	taxTime = 20;
 	taxPerTime = totalPrinterCount / 4 * 100;
 	powerConsumption = 0;

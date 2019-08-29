@@ -303,8 +303,8 @@
     <key>ITSAppUsesNonExemptEncryption</key>
     <false />
     <key>NSLocationAlwaysUsageDescription</key>
-    <string></string>
+    <string>Your location is not being used by SMD Technologies, s.r.o.</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>&gt;</string>
+    <string>Your location is not being used by SMD Technologies, s.r.o.</string>
   </dict>
 </plist>

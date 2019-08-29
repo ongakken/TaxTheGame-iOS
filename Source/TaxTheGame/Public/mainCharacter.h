@@ -51,9 +51,9 @@ public:
 		int32 clickIncrementBoostCount; // clickIncrementValue += clickIncrementBoostCount
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int32 overclockCount;
+		float overclockCount;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int32 currentClock;
+		float currentClock;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Taxes")
 		int32 taxTime;
