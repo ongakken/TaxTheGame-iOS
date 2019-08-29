@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TaxTheGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{15388815-90FA-4CD5-84E8-2E3B648A4B3B}</UniqueIdentifier>
+      <UniqueIdentifier>{4E26AE81-BFEE-439B-B887-DBBACCA6A48E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TaxTheGame.Target.cs">
       <Filter>Source</Filter>
@@ -19,7 +19,7 @@
     <None Include="..\..\RemoteToolChainPrivate.key" />
     <None Include="..\..\taxthegameProfile.mobileprovision" />
     <Filter Include="Config">
-      <UniqueIdentifier>{03F5CD85-D89E-497F-B446-D31D398C8A3E}</UniqueIdentifier>
+      <UniqueIdentifier>{4141E66F-2FF0-4C8E-965A-E70E0927F988}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TaxTheGame">
-      <UniqueIdentifier>{125E4375-5F88-42BA-A772-3E5619828563}</UniqueIdentifier>
+      <UniqueIdentifier>{52D42870-913C-4B17-8635-7C3ECADECA7C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TaxTheGame\TaxTheGame.Build.cs">
       <Filter>Source\TaxTheGame</Filter>
@@ -52,13 +52,13 @@
       <Filter>Source\TaxTheGame</Filter>
     </ClInclude>
     <Filter Include="Source\TaxTheGame\Private">
-      <UniqueIdentifier>{737039D2-3D11-43FC-A70D-F80762AB590D}</UniqueIdentifier>
+      <UniqueIdentifier>{B524D726-C76E-44DE-9DF5-9C99DBC9F15A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TaxTheGame\Private\mainCharacter.cpp">
       <Filter>Source\TaxTheGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TaxTheGame\Public">
-      <UniqueIdentifier>{AD57A090-9AC1-4A19-B6C8-16F21EC6844B}</UniqueIdentifier>
+      <UniqueIdentifier>{C8E272C6-8492-4CC0-BC29-B383212DF11B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TaxTheGame\Public\mainCharacter.h">
       <Filter>Source\TaxTheGame\Public</Filter>

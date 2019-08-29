@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2019 SMD Technologies, s.r.o. All rights reserved.
 
 #pragma once
 
@@ -41,31 +41,31 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
 		int t10Count;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Printers")
-		int totalPrinterCount = t1Count + t2Count + t3Count + t4Count + t5Count + t6Count + t7Count + t8Count + t9Count + t10Count;
+		int totalPrinterCount;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int currentMoney = 0;
+		int currentMoney;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int clickIncrementValue = 1;
+		int clickIncrementValue;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
-		int clickIncrementBoostCount = 0; // clickIncrementValue += clickIncrementBoostCount
+		int clickIncrementBoostCount; // clickIncrementValue += clickIncrementBoostCount
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int overclockCount = 0;
+		int overclockCount;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Clock")
-		int currentClock = 1000;
+		int currentClock;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Taxes")
-		int taxTime = 20;
+		int taxTime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Taxes")
-		int taxPerTime = totalPrinterCount / 4 * 100; // deduct this value every taxTime
+		int taxPerTime; // deduct this value every taxTime
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int powerConsumption = 0;
+		int powerConsumption;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int billTime = 60;
+		int billTime;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power")
-		int bill = totalPrinterCount / 2 * powerConsumption; // this value will be deducted every billTime
+		int bill; // this value will be deducted every billTime
 
 
 
