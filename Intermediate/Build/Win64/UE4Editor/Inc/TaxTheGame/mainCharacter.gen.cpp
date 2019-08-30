@@ -199,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		{ "ModuleRelativePath", "Public/mainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue = { "clickIncrementValue", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, clickIncrementValue), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue = { "clickIncrementValue", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AmainCharacter, clickIncrementValue), METADATA_PARAMS(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AmainCharacter_Statics::NewProp_clickIncrementValue_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AmainCharacter_Statics::NewProp_currentMoney_MetaData[] = {
 		{ "Category", "Money" },
@@ -344,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodemainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AmainCharacter, 3356636422);
+	IMPLEMENT_CLASS(AmainCharacter, 3817130798);
 	template<> TAXTHEGAME_API UClass* StaticClass<AmainCharacter>()
 	{
 		return AmainCharacter::StaticClass();

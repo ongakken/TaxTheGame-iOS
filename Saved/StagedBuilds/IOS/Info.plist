@@ -30,9 +30,9 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>0.40</string>
+    <string>0.73</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1</string>
+    <string>0.6</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
     <key>UIStatusBarHidden</key>
@@ -303,8 +303,8 @@
     <key>ITSAppUsesNonExemptEncryption</key>
     <false />
     <key>NSLocationAlwaysUsageDescription</key>
-    <string></string>
+    <string>Location not used by SMD Technologies, s.r.o.!</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>&gt;</string>
+    <string>Location not used by SMD Technologies, s.r.o.!&gt;</string>
   </dict>
 </plist>

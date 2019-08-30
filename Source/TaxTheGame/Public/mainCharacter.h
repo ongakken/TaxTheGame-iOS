@@ -45,7 +45,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
 		int32 currentMoney;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Money")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
 		int32 clickIncrementValue;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Money")
 		int32 clickIncrementBoostCount; // clickIncrementValue += clickIncrementBoostCount
